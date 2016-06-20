@@ -1,6 +1,6 @@
 body {background: url(body-background.jpeg);
 	max-width: 960px;
-	max-height: 2000px;
+	max-height: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -68,6 +68,12 @@ body {background: url(body-background.jpeg);
 .caption {
 	text-align: center;	
 	overflow: auto;
+}
+@media screen and (max-width:960px) {
+	body {width: 100%;}
+	.top-box{width: 33%;}
+	.middle-box{width: 33%;}
+	.bottom-box{width: 33%;}
 }
 
 a {
